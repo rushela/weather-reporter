@@ -1,25 +1,24 @@
-# 🌤️ Simple Weather Reporter – Colombo, Sri Lanka
+# 🌤️ Weather Reporter App – Lanka Software Foundation Assignment
 
-This project is a basic weather reporting web application built as part of a take-home assignment for Lanka Software Foundation. It fetches and displays real-time weather data for Colombo using the [WeatherAPI.com](https://weatherapi.com) service.
+This is a weather reporting web app built as part of a take-home project for Lanka Software Foundation. It fetches live weather data using [WeatherAPI.com](https://weatherapi.com) and presents it in a clean, responsive interface.
 
 ## 🚀 Features
 
-- ✅ Real-time weather for Colombo, Sri Lanka
-- ✅ Displays:
-  - Temperature (°C)
-  - Humidity (%)
-  - Wind Speed (km/h)
-  - UV Index
-- ✅ Fully responsive and clean UI
-- ✅ Lightweight: Built using vanilla HTML, CSS, and JavaScript
+- 🔍 **City Search**: Look up weather data for any location.
+- ⏳ **Loading State**: Shows a loading indicator while fetching data.
+- 🌦️ **Live Weather Info**: Displays temperature, humidity, wind speed, UV index, condition text, feels-like temperature, and visibility.
+- 🖼️ **Dynamic Weather Icon**: Icons based on real-time weather condition.
+- 📱 **Responsive UI**: Looks great on both desktop and mobile.
+- ⚡ **Built with**: HTML, CSS (custom), JavaScript (vanilla)
+- 🌐 **Deployed on**: [Vercel](https://vercel.com)
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the deployed site](https://weather-reporter-two.vercel.app/)
+👉 [Click here to view the live app](https://weather-reporter-two.vercel.app/)
 
 ## 📂 Project Structure
-
-weather-reporter/
-├── index.html # Main HTML file
-├── style.css # Basic styling
-└── script.js # Fetch and display weather data
+-weather-reporter/
+-├── index.html # Main HTML page
+-├── style.css # Responsive and animated CSS
+-├── script.js # Fetches and displays weather data
+-└── README.md # Project overview and instructions
