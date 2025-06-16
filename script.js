@@ -5,6 +5,7 @@ const url = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}
 fetch(url)
   .then(response => response.json())
   .then(data => {
+    document.getElementById("icon").src = "https:" + data.current.condition.icon;
     document.getElementById("temp").textContent = data.current.temp_c;
     document.getElementById("humidity").textContent = data.current.humidity;
     document.getElementById("wind").textContent = data.current.wind_kph;
