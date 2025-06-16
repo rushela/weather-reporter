@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_API_KEY_HERE"; // Replace with your real key
+const API_KEY = "196627be29c744489ff112040251606"; // Replace with your real key
 
 function fetchWeather() {
   const city = document.getElementById("cityInput").value || "Colombo";
