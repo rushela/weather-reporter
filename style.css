@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/* Import Google Font */
+>>>>>>> ce435cf7d8af850f3127dbcb2b7ec26c5c25594a
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
@@ -7,6 +11,7 @@ body {
   background: linear-gradient(to right, #83a4d4, #b6fbff);
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
@@ -80,6 +85,42 @@ h1 {
   font-size: 17px;
   margin: 10px 0;
   color: #444;
+=======
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+/* Weather Card */
+#weather {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards;
+}
+
+#weather p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333333;
+>>>>>>> ce435cf7d8af850f3127dbcb2b7ec26c5c25594a
 }
 
 #weather span {
@@ -87,6 +128,7 @@ h1 {
   color: #0066cc;
 }
 
+<<<<<<< HEAD
 #conditionIcon {
   display: block;
   margin: 0 auto 10px;
@@ -117,8 +159,26 @@ footer a {
     transform: translateY(20px);
   }
 
+=======
+/* Fade-in animation */
+@keyframes fadeIn {
+>>>>>>> ce435cf7d8af850f3127dbcb2b7ec26c5c25594a
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Responsive design */
+@media (max-width: 500px) {
+  body {
+    padding: 20px;
+  }
+
+  #weather {
+    width: 100%;
+  }
+}
+>>>>>>> ce435cf7d8af850f3127dbcb2b7ec26c5c25594a
