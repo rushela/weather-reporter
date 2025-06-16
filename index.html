@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App | LSF Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" />
+</head>
+<body>
+  <h1>Weather Report <span class="icon">🌤️</span></h1>
+
+  <div class="search-box">
+    <input type="text" id="cityInput" placeholder="Enter a city (e.g. Colombo)" />
+    <button onclick="fetchWeather()">Get Weather</button>
+  </div>
+
+  <div id="loader">Loading...</div>
+
+  <div id="weather" style="display:none;">
+    <h2 id="location"></h2>
+    <img id="conditionIcon" alt="Weather Icon" />
+    <p><strong>Condition:</strong> <span id="conditionText"></span></p>
+    <p><strong>Temperature:</strong> <span id="temp"></span> °C</p>
+    <p><strong>Feels Like:</strong> <span id="feels"></span> °C</p>
+    <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+    <p><strong>Wind Speed:</strong> <span id="wind"></span> km/h</p>
+    <p><strong>UV Index:</strong> <span id="uv"></span></p>
+    <p><strong>Visibility:</strong> <span id="vis"></span> km</p>
+    <p class="last-updated">Last Updated: <span id="updated"></span></p>
+  </div>
+
+  <footer>
+    Powered by <a href="https://www.weatherapi.com" target="_blank">WeatherAPI.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
