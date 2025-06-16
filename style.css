@@ -1,13 +1,52 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
   text-align: center;
-  padding: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
 }
 
 #weather {
-  border: 1px solid #ccc;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 10px;
-  background: #f9f9f9;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+#weather p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333333;
+}
+
+#weather span {
+  font-weight: 600;
+  color: #0066cc;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #weather {
+    width: 100%;
+  }
 }
